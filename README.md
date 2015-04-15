@@ -7,7 +7,7 @@ This is what it should look like when you are done(If you created all the deskto
 
 ![alt tag](http://i.imgur.com/CjSmXEU.png)
 
-Like I said, Steam is bad about populating icons in linux, so be sure to check out my other script to grab the icons using the Steap Web API here https://github.com/NolanSyKinsley/SteamIconGetter
+Like I said, Steam is bad about populating icons in linux, so be sure to check out my other script to grab the icons using the Steam Web API here https://github.com/NolanSyKinsley/SteamIconGetter
 
 You could have a menu looking like this:
 
