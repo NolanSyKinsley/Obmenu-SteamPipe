@@ -7,8 +7,6 @@ This is what it should look like when you are done(If you created all the deskto
 
 ![alt tag](http://i.imgur.com/CjSmXEU.png)
 
-Like I said, Steam is bad about populating icons in linux, so be sure to check out my other script to grab the icons using SteamCMD here https://github.com/NolanSyKinsley/SteamIconGetter
-
-You could have a menu looking like this:
+Like I said, Steam is bad about populating icons in linux, so be sure to check out the included IconGrabber.sh to get the icons automatically.
 
 ![alt tag](http://i.imgur.com/UzJFl0P.png)
