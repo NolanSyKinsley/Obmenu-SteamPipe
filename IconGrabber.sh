@@ -12,7 +12,7 @@ if [ ! -f $ICONS/steam_icon_$ID.png ]; then
 	wget http://media.steampowered.com/steamcommunity/public/images/apps/$ID/$ICONHASH.jpg -O $ICONS/steam_icon_$ID.png
 	echo "$NAME's icon is missing, retrieving from web"
 else
-echo "$NAME's icon is present, skipping"
+	echo "$NAME's icon is present, skipping"
 fi
 done
-echo "done"
+	echo "done"
