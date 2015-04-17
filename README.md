@@ -15,7 +15,7 @@ Like I said, Steam is bad about populating icons in linux, so be sure to check o
 
 **1.**   Download Obmenu-SteamPipe and IconGrabber.sh if needed, place scripts where desired, mark as executable.  
 
-**2.**   If you are using Obmenu-Generator open ~/.config/schema.pl and place this where you want the pipe menu to be:  
+**2.**   If you are using Obmenu-Generator open ~/.config/obmenu-generator/schema.pl and place this where you want the pipe menu to be:  
 
 `{pipe => ["/path/to/Obmenu-SteamPipe/goes/here", "Steam", "steam"]}`
 
