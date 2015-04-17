@@ -19,7 +19,7 @@ Like I said, Steam is bad about populating icons in linux, so be sure to check o
 
 `{pipe => ["/path/to/Obmenu-SteamPipe/goes/here", "Steam", "steam"]}`
 
-If you are not using Obmenu-Generator you can manually run the script once and the output can be placed in the default Openbox menu config file where desired.
+If you are not using Obmenu-Generator you can manually run Obmenu-SteamPipe once and the output can be placed in the default Openbox menu config file where desired.
 
 **3.**   Run IconGrabber.sh once to populate the menu with icons. You can run it again when you download more games and need the icons.
 
