@@ -9,8 +9,8 @@ for file in "$STEAMAPPS"/*.acf; do
     NAME=$(grep -w -m 1 '"name"' "$file" | sed -r 's/[^"]*"name"[^"]*"([^"]*)"/\1/') 
 if [ ! -f $ICONS/steam_icon_$ID.png ]; then 
 	echo "$NAME's icon is missing, retrieving from web"
-	ICONHASH=$(steamcmd  +app_info_print $ID +exit | grep -w -m 1 "icon" | sed -r 's/[^"]*"icon"[^"]*"([^"]*)"/\1/') 
-	wget http://media.steampowered.com/steamcommunity/public/images/apps/$ID/$ICONHASH.jpg -O $ICONS/steam_icon_$ID.png
+	ICONHASH=$(steamcmd  +app_info_print $ID +exit | grep -w -m 1 "icon" | sed -r 's/[^"]*"icon"[^"]*"([^"]*)"/\1/');
+	wget http://media.steampowered.com/steamcommunity/public/images/apps/$ID/$ICONHASH.jpg -O "$ICONS"steam_icon_$ID.png
 else
 	echo "$NAME's icon is present, skipping"
 fi
