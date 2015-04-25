@@ -6,7 +6,7 @@ shopt -s nullglob
 echo '<openbox_pipe_menu>'
 for file in "$STEAMAPPS"/*.acf; do
     ID=$(grep '"appid"' "$file" | head -1 | sed -r 's/[^"]*"appid"[^"]*"([^"]*)"/\1/')
-    NAME=$(grep '"name"' "$file" | head -1 | sed -r 's/[^"]*"name"[^"]*"([^"]*)"/\1/' | sed -e 's/&/&amp;/')
+    NAME=$(grep '"name"' "$file" | head -1 | sed -r -e 's/[^"]*"name"[^"]*"([^"]*)"/\1/' -e 's/&/&amp;/')
     echo "<item label=\""$NAME"\" icon=\""$HOME"/.local/share/icons/hicolor/32x32/apps/steam_icon_$ID.png\"><action name=\"Execute\"><execute>steam steam://run/$ID</execute></action></item>"
 done | sort
 echo '</openbox_pipe_menu>'
