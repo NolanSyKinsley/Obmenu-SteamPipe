@@ -23,5 +23,5 @@ After:
 
 If you are not using Obmenu-Generator you can manually run Obmenu-SteamPipe once and the output can be placed in the default Openbox menu config file where desired.
 
-**3.**   Run IconGrabber.sh once to populate the menu with icons. You can run it again when you download more games and need the icons, or you can just add it to your startup. It has a check so it won't download if the icon is already present. **Note:** This script will take a fair amount of time to run. It is using steamcmd, which takes 1-3 seconds per game to return the icon hash so it can be retrieved. I am looking into ways to speed this up, but for now it is just going to be really slow, the good news is it doesn't take up much processor at all, so can be ran at startup to check that all games have their icons.
+**3.**   Run IconGrabber.sh once to populate the menu with icons. You can run it again when you download more games and need the icons, or you can just add it to your startup. It has a check so it won't download if the icon is already present. 
 
