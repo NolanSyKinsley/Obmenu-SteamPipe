@@ -19,7 +19,7 @@ After:
 
 **2.**   If you are using Obmenu-Generator open ~/.config/obmenu-generator/schema.pl and place this where you want the pipe menu to be:  
 
-`{pipe => ["/path/to/Obmenu-SteamPipe/goes/here", "Steam", "steam"]}`
+`{pipe => ["</path/to/Obmenu-SteamPipe/goes/here>", "Steam", "steam"]}`
 
 If you are not using Obmenu-Generator you can manually run Obmenu-SteamPipe once and the output can be placed in the default Openbox menu config file where desired.
 
