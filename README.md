@@ -1,5 +1,5 @@
 # Obmenu-SteamPipe
-This script when added to the openbox menu, or with obmenu-generator, will auto populate a pipe menu with all of your steam games you have installed for easy launching. Includes icon support, but steam sucks at getting icons on linux, without creating a desktop shortcut for each game it makes no icons at all, and even if you do make all the shortcuts, most are missing icons. This is fixed by using the included IconGrabber.sh.
+This script when added to the openbox menu, or with obmenu-generator, will auto populate a pipe menu with all of your steam games you have installed for easy launching. Includes icon support, but steam sucks at getting icons on linux. Without creating a desktop shortcut for each game it makes no icons at all, and even if you do make all the shortcuts most are missing icons. This can be fixed by using the included IconGrabber.sh.
 
 This is what it looks like before using IconGrabber.sh:
 
